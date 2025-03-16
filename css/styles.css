@@ -3406,7 +3406,7 @@ td:last-child {
 }
 
 .s-intro__content-title {
-    font-size     : clamp(3.8rem, 4.8vw, 8.8rem);
+    font-size     : clamp(3.8rem, 4vw, 8.8rem);
     line-height   : 1.045;
     letter-spacing: -0.025em;
     margin-top    : 0;
@@ -4440,4 +4440,30 @@ td:last-child {
     .ss-go-top {
         right: -2rem;
     }
+}
+
+.company-title{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-1);
+    font-weight: 400;
+    line-height: var(--vspace-1);
+    padding: 0 1.2rem;
+    transition-property: color, background-color;
+}
+
+.s-about.target-section{
+    padding-top: 15rem;
+}
+
+.s-works.target-section{
+    padding-top: 14rem;
+}
+
+.highlight {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
