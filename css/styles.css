@@ -3406,7 +3406,7 @@ td:last-child {
 }
 
 .s-intro__content-title {
-    font-size     : clamp(3.8rem, 4vw, 8.8rem);
+    font-size     : clamp(3.8rem, 3.5vw, 8.8rem);
     line-height   : 1.045;
     letter-spacing: -0.025em;
     margin-top    : 0;
@@ -4428,6 +4428,14 @@ td:last-child {
     .ss-go-top {
         right: calc(var(--gutter) / 2 - var(--vspace-0_25));
     }
+
+    body .s-about.target-section{
+        padding-top: 12rem;
+    }
+    
+    body .s-works.target-section{
+        padding-top: 6rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -4467,3 +4475,13 @@ td:last-child {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
+
+
+@media screen and (min-width: 1024px) {
+    .s-intro__content-title{
+        padding-right: 5rem;
+    }
+}
+
+
+
